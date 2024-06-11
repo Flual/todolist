@@ -1,0 +1,82 @@
+body{
+    background-color: black;
+    color:white;
+}
+
+h1{color: white;}
+
+#wrapper{
+    border: 1px solid white;
+    width: 1000px;
+    position: absolute;
+    left: 25%;
+    top: 20%;
+    border-radius: 5px;
+}
+
+#todolist{
+    border: 1px solid white;
+    width: 1000px;
+    
+}
+
+#inputarea{
+    border: 1px solid white;
+    width: 1000px;
+    
+}
+
+#inputfield{
+    width: 300px;
+}
+
+#tarea{
+    width: 300px;
+
+}
+
+#Submit{
+    position: absolute;
+    left: 80%;
+    width: 100px;
+    background-color: rgb(255, 255, 255);
+}
+
+#Clear{
+    position: absolute;
+    left: 90%;
+    width: 100px;
+    background-color: rgb(118, 4, 4);
+}
+
+li{
+    font-size: 16pt;
+    font-weight: bold;
+    padding-bottom: 10px;
+    width: auto;
+    text-align: left;
+    list-style-type: none;
+    height: 40px;
+    position: relative;
+}
+
+li:hover{
+    background-color: grey;
+}
+
+ul li span{
+    position: absolute;
+    right: 0;
+
+    width: 40px;
+    height: 40px;
+    font-size: 22px;
+    color: #555;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 50%;
+}
+
+ul li span:hover{
+    background-color: rgb(229, 37, 37);
+}

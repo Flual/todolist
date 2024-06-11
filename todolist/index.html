@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo-list</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div id="wrapper">
+        <h1>Todo-list</h1>
+        <div id="todolist">
+            <ul id="list-container">
+
+            </ul>
+        </div>
+
+        <div class="inputarea">
+            <input type="text" placeholder="Task Name" id="input-box" maxlength="100">
+            <br>
+            <textarea id="tarea" maxlength="256" placeholder="Notes"></textarea>
+            <button id="Submit" onclick="addTask()">Submit</button>
+            <button id="Clear" onclick="resetlist()">Clear</button>
+        </div>
+
+    </div>
+
+    <script src="apps.js"></script>
+</body>
+</html>
